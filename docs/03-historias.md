@@ -2,9 +2,8 @@
 
 > 🔤 **Códigos que verás:** **RF-01** = requisito funcional 1 · **RN-01** = regla de negocio 1 · **HU-01** = historia de usuario 1 · **CA1** = criterio de aceptación 1 (y así sucesivamente)
 
-| 🎭 Hoy eres | ⏱ Tiempo | 📦 Al terminar tendrás |
-|---|---|---|
-| **Product Owner**: representa al cliente ante el equipo y decide qué aporta más valor | 1-2 sesiones | Las historias del producto mínimo viable con criterios de aceptación: la base de tu backlog |
+**🎭 Hoy eres** **Product Owner**: representa al cliente ante el equipo y decide qué aporta más valor.  
+**📦 Al terminar tendrás:** Las historias del producto mínimo viable con criterios de aceptación: la base de tu backlog · **⏱** 1-2 sesiones
 
 `DESCUBRIR 01·02·[03]·04 │ DISEÑAR 05·06 │ PLANIFICAR 07·08 │ CONSTRUIR 09·10·11·12·13 │ CALIDAD 14·15 │ ENTREGAR 16·17·18`
 
@@ -26,19 +25,20 @@ Copia este bloque para cada historia:
 - [ ] **CA2** · Dado … cuando … entonces …
 - [ ] **CA3 (caso negativo)** · Dado … cuando … entonces …
 
-<details><summary>💡 Ejemplo ReservAula</summary>
-
-**HU-02 · Reservar una franja**
-**Como** profesor/a **quiero** reservar una franja libre de un aula **para** asegurarla para mi clase.
-**Viene de:** RF-03 · RN-01 · RN-02 · **Depende de:** HU-01
-
-- **CA1** · Dado una franja libre en una fecha futura, cuando confirmo la reserva, entonces la franja aparece ocupada a mi nombre y en «Mis reservas».
-- **CA2** · Dado una franja ya ocupada, cuando intento reservarla, entonces no se crea la reserva y veo «Esa franja ya está reservada».
-- **CA3** · Dado una fecha pasada, cuando abro el calendario, entonces no puedo seleccionarla.
-</details>
+> 💡 **Ejemplo ReservAula**
+>
+> **HU-02 · Reservar una franja**
+> **Como** profesor/a **quiero** reservar una franja libre de un aula **para** asegurarla para mi clase.
+> **Viene de:** RF-03 · RN-01 · RN-02 · **Depende de:** HU-01
+>
+> - **CA1** · Dado una franja libre en una fecha futura, cuando confirmo la reserva, entonces la franja aparece ocupada a mi nombre y en «Mis reservas».
+> - **CA2** · Dado una franja ya ocupada, cuando intento reservarla, entonces no se crea la reserva y veo «Esa franja ya está reservada».
+> - **CA3** · Dado una fecha pasada, cuando abro el calendario, entonces no puedo seleccionarla.
 
 ## 3. Revisa el tamaño
 🧭 Si una historia no cabe en una semana de trabajo o tiene más de 5-6 criterios, divídela. Pregúntate: «¿puedo entregar una parte útil antes?».
+
+> 💡 **Ejemplo ReservAula:** «Gestionar reservas» era demasiado grande. La dividimos en HU-02 Reservar y HU-03 Cancelar.
 
 ## ✅ Hecho cuando
 - [ ] Todos los requisitos funcionales están cubiertos por alguna historia (anótalo en [`TRAZABILIDAD.md`](TRAZABILIDAD.md)).

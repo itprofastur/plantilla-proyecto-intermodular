@@ -2,9 +2,8 @@
 
 > 🔤 **Códigos que verás:** **HU-01** = historia de usuario 1 (y así sucesivamente)
 
-| 🎭 Hoy eres | ⏱ Tiempo | 📦 Al terminar tendrás |
-|---|---|---|
-| **Diseñador/a de experiencia de usuario**: diseña cómo usará la persona el producto para conseguir su objetivo sin esfuerzo | 1-2 sesiones | Flujos, wireframes y un prototipo navegable probado con una persona real |
+**🎭 Hoy eres** **Diseñador/a de experiencia de usuario**: diseña cómo usará la persona el producto para conseguir su objetivo sin esfuerzo.  
+**📦 Al terminar tendrás:** Flujos, wireframes y un prototipo navegable probado con una persona real · **⏱** 1-2 sesiones
 
 `DESCUBRIR 01·02·03·[04] │ DISEÑAR 05·06 │ PLANIFICAR 07·08 │ CONSTRUIR 09·10·11·12·13 │ CALIDAD 14·15 │ ENTREGAR 16·17·18`
 
@@ -20,6 +19,8 @@
 
 ## 2. Inventario de pantallas
 
+> 💡 **Ejemplo ReservAula:** Semana del aula · Ver franjas libres y ocupadas, y reservar · HU-01, HU-02
+
 | Pantalla | Para qué sirve | Historias |
 |---|---|---|
 | | | |
@@ -28,8 +29,12 @@
 ## 3. Wireframes
 🧭 En papel, Penpot o Figma. Estructura y contenido, sin colores. Guárdalos en `docs/img/04-*.png`.
 
+> 💡 **Ejemplo ReservAula:** Wireframe de «Semana del aula»: nombre del aula arriba, tabla de días y franjas, botón «Reservar».
+
 ## 4. Los estados que siempre se olvidan
 🧭 Para cada pantalla importante, piensa qué ve el usuario cuando: **no hay datos** · **algo falla** · **está cargando** · **ha salido bien** · **no tiene permiso**.
+
+> 💡 **Ejemplo ReservAula:** Mis reservas · No hay datos · «Todavía no tienes reservas. Ve a Aulas para hacer la primera.»
 
 | Pantalla | Estado | Qué ve el usuario |
 |---|---|---|
@@ -38,10 +43,14 @@
 ## 5. Prototipo navegable
 🧭 Une las pantallas para que se pueda **hacer clic** en los recorridos del paso 1.
 
+> 💡 **Ejemplo ReservAula:** Al pulsar una franja libre se abre la pantalla «Confirmar reserva».
+
 **Enlace al prototipo:**
 
 ## 6. Prueba con una persona (10 min)
 🧭 Dale una tarea («reserva el aula 204 el jueves a 3.ª hora») y **observa sin ayudar**. Anota dónde duda.
+
+> 💡 **Ejemplo ReservAula:** Le pedí reservar el 204 el jueves · Buscaba la fecha y no la encontraba · Pongo un selector de fecha visible.
 
 | Qué le pedí | Dónde dudó o se equivocó | Qué cambio |
 |---|---|---|

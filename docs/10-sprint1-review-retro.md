@@ -2,9 +2,8 @@
 
 > 🔤 **Códigos que verás:** **HU-01** = historia de usuario 1 (y así sucesivamente)
 
-| 🎭 Hoy eres | ⏱ Tiempo | 📦 Al terminar tendrás |
-|---|---|---|
-| **Equipo Scrum ante el cliente**: enseñáis lo construido, escucháis y mejoráis cómo trabajáis | 1 sesión | Feedback del cliente en el backlog y una mejora concreta para el Sprint 2 |
+**🎭 Hoy eres** **Equipo Scrum ante el cliente**: enseñáis lo construido, escucháis y mejoráis cómo trabajáis.  
+**📦 Al terminar tendrás:** Feedback del cliente en el backlog y una mejora concreta para el Sprint 2 · **⏱** 1 sesión
 
 `DESCUBRIR 01·02·03·04 │ DISEÑAR 05·06 │ PLANIFICAR 07·08 │ CONSTRUIR 09·[10]·11·12·13 │ CALIDAD 14·15 │ ENTREGAR 16·17·18`
 

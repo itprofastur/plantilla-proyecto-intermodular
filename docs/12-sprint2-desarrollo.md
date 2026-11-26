@@ -1,8 +1,7 @@
 # Fase 12 · Sprint 2 · Desarrollo
 
-| 🎭 Hoy eres | ⏱ Tiempo | 📦 Al terminar tendrás |
-|---|---|---|
-| **Desarrollador/a con un producto en marcha**: construyes lo nuevo sin romper lo que ya funciona | Todas las sesiones del sprint | Las historias del Sprint 2 online y todo lo anterior funcionando |
+**🎭 Hoy eres** **Desarrollador/a con un producto en marcha**: construyes lo nuevo sin romper lo que ya funciona.  
+**📦 Al terminar tendrás:** Las historias del Sprint 2 online y todo lo anterior funcionando · **⏱** Todas las sesiones del sprint
 
 `DESCUBRIR 01·02·03·04 │ DISEÑAR 05·06 │ PLANIFICAR 07·08 │ CONSTRUIR 09·10·11·[12]·13 │ CALIDAD 14·15 │ ENTREGAR 16·17·18`
 
@@ -21,15 +20,23 @@
 
 ## 2. Revisión de código (en cada pull request)
 🧭 Si trabajas en equipo, revisa la pull request de un compañero. Si trabajas solo, revisa tu propia pull request al día siguiente.
+
+> 💡 **Ejemplo ReservAula:** «En la línea 40 la fecha se compara como texto; mejor como fecha.» Se corrige antes del merge.
+
 - ¿Se entiende sin que el autor lo explique? ¿Los nombres dicen lo que hacen?
 - ¿Hay código duplicado o comentado sin usar?
 - ¿Los datos se validan **también en el servidor**?
 - ¿Hay contraseñas o datos sensibles en el código?
 
 ## 3. Aplica la mejora de la retrospectiva
+
+> 💡 **Ejemplo ReservAula:** Mejora: pull requests pequeñas. Este sprint: 9 pull requests, todas integradas el mismo día.
+
 **Mejora:** · **¿Se está cumpliendo?** ☐ Sí ☐ A medias ☐ No
 
 ## Diario breve
+
+> 💡 **Ejemplo ReservAula:** Sesión 2 · Pantalla de gestión de aulas · El login dejó de funcionar · Se revierte el cambio y se corrige.
 
 | Sesión | Avance | Bloqueo / bug / regresión | Decisión |
 |---|---|---|---|
@@ -37,6 +44,8 @@
 | | | | |
 
 ## Cierre del sprint
+
+> 💡 **Ejemplo ReservAula:** HU-07 Avisos por correo · Sin terminar · Pasa a «versión futura».
 
 | Historia | Estado | Si no está en Done, ¿qué falta? |
 |---|---|---|

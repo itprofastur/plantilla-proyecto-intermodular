@@ -1,19 +1,22 @@
 # Fase 13 · Sprint 2 · Review, Retrospectiva y paso a pruebas
 
-| 🎭 Hoy eres | ⏱ Tiempo | 📦 Al terminar tendrás |
-|---|---|---|
-| **Equipo Scrum que cierra el desarrollo**: enseñáis el producto, aprendéis de dos sprints y lo preparáis para las pruebas | 1 sesión | Demo, comparación de sprints y el producto «congelado» para la fase de pruebas |
+**🎭 Hoy eres** **Equipo Scrum que cierra el desarrollo**: enseñáis el producto, aprendéis de dos sprints y lo preparáis para las pruebas.  
+**📦 Al terminar tendrás:** Demo, comparación de sprints y el producto «congelado» para la fase de pruebas · **⏱** 1 sesión
 
 `DESCUBRIR 01·02·03·04 │ DISEÑAR 05·06 │ PLANIFICAR 07·08 │ CONSTRUIR 09·10·11·12·[13] │ CALIDAD 14·15 │ ENTREGAR 16·17·18`
 
 ## 1. Review: demo y feedback
 🧭 Igual que en la [fase 10](10-sprint1-review-retro.md): URL real, historias en Done, contado como una historia de uso.
 
+> 💡 **Ejemplo ReservAula:** «Estaría bien repetir una reserva cada semana» · versión futura.
+
 | Lo que dijo el cliente | Decisión: ☐ antes de entregar / ☐ versión futura / ☐ descartado |
 |---|---|
 | | |
 
 ## 2. Dos sprints: ahora sí se puede comparar
+
+> 💡 **Ejemplo ReservAula:** Sprint 1: previstos 15, en Done 10. Sprint 2: previstos 10, en Done 10.
 
 | | Sprint 1 | Sprint 2 |
 |---|---|---|
@@ -25,6 +28,9 @@
 **¿Qué explica la diferencia?**
 
 ## 3. Retrospectiva
+
+> 💡 **Ejemplo ReservAula:** Mejoró: integrar cada día. Falta: probar en el móvil antes de dar algo por terminado.
+
 - **¿Funcionó la mejora del Sprint 1?** ☐ Sí ☐ En parte ☐ No · Por qué:
 - **La práctica que nos llevamos a la fase final:**
 

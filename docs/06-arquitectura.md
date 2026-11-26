@@ -2,15 +2,16 @@
 
 > 🔤 **Códigos que verás:** **HU-01** = historia de usuario 1 (y así sucesivamente)
 
-| 🎭 Hoy eres | ⏱ Tiempo | 📦 Al terminar tendrás |
-|---|---|---|
-| **Arquitecto/a de software + DevOps**: decide las piezas, las tecnologías y cómo llega la app a internet | 2 sesiones | Tu arquitectura **y un esqueleto de la app funcionando en una URL pública** |
+**🎭 Hoy eres** **Arquitecto/a de software + DevOps**: decide las piezas, las tecnologías y cómo llega la app a internet.  
+**📦 Al terminar tendrás:** Tu arquitectura **y un esqueleto de la app funcionando en una URL pública** · **⏱** 2 sesiones
 
 `DESCUBRIR 01·02·03·04 │ DISEÑAR 05·[06] │ PLANIFICAR 07·08 │ CONSTRUIR 09·10·11·12·13 │ CALIDAD 14·15 │ ENTREGAR 16·17·18`
 
 **Partes de:** requisitos no funcionales (fase 02), pantallas (04) y modelo de datos (05).
 
 ## 1. Piezas y responsabilidades
+
+> 💡 **Ejemplo ReservAula:** Servidor / API · Aplica las reglas de negocio y responde en JSON · PHP con Laravel
 
 | Componente | De qué se encarga | Tecnología |
 |---|---|---|
@@ -22,12 +23,16 @@
 ## 2. Decisiones técnicas (con motivo)
 🧭 Una decisión sin motivo no se puede defender ante el tribunal. Usa tus requisitos no funcionales y lo que sabes hacer.
 
+> 💡 **Ejemplo ReservAula:** Base de datos MySQL · Las reservas son datos muy relacionados entre sí · MongoDB: no encaja con tantas relaciones
+
 | Decisión | Por qué | Alternativa descartada y por qué |
 |---|---|---|
 | | | |
 | | | |
 
 ## 3. Cómo se comunican: endpoints principales
+
+> 💡 **Ejemplo ReservAula:** POST · `/api/reservas` · Crear una reserva · HU-02
 
 | Método | Ruta | Para qué | Historia |
 |---|---|---|---|
@@ -36,6 +41,8 @@
 
 ## 4. Diagrama
 🧭 Cajas y flechas: navegador → API → base de datos, y dónde se despliega cada pieza. Guárdalo en `docs/img/06-arquitectura.png`.
+
+> 💡 **Ejemplo ReservAula:** Navegador → API en el hosting → base de datos MySQL en el mismo hosting.
 
 ![Arquitectura](img/06-arquitectura.png)
 
